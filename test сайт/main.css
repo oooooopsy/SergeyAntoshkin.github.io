@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./font/1.ttf');
+    /*src: url('../fonts/11618.ttf');*/
+    font-weight: normal;
+    font-style: normal;
+}
+html { overflow:  hidden; }
+body {
+    background-color: black;
+    font-family: "MyWebFont";
+    overflow-x: hidden;
+}
+.csssasd {
+    color: chartreuse;
+    font-size: 1.2em;
+}
+.erroroo {
+ width: 100%;
+ height: 30px;
+ position: sticky;
+ font-size: 1.1em;
+ color: rgb(255, 146, 146);
+}
+.erroroo_1 {
+    width: 100%;
+    height: 30px;
+    font-size: 1.1em;
+    position: sticky;
+    color: rgb(177, 255, 146);
+}
