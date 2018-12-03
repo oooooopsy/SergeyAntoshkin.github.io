@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="file/js/jQerty.js"></script>
+<script type="text/javascript" src="file/js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="file/css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="file/css/jQuizler.css" />
+
+<link rel="stylesheet" type="text/css" href="../../../CSS/style.css" />
+<link rel="stylesheet" type="text/css" href="../../../CSS/style_1.css" />
+<link rel="stylesheet" type="text/css" href="../../../CSS/style_menu.css" />
+<link rel="stylesheet" type="text/css" href="../../../CSS/style_accordion.css" />
+
+
+<script type="text/javascript">
+var questions = [
+    {
+        type: "choose",
+        question: `<h3>Каким числом следует заменить знак вопроса\? <br>
+ 	25 29 33 37 41 ?</h3>`,
+        answers: [
+            "44",
+            "43",
+            "45",
+            "46",
+            "42"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Что здесь является лишним?</h3>",
+        answers: [
+        "ЛЕВ",	
+        "ТИГР",
+        "ГЕПАРД",
+        "ПУМА",
+        "ГИЕНА"
+        ],
+        correct: [5]
+    },
+	{
+        type: "choose",
+        question: `<h3>Какой буквой следует заменить знак вопроса?<br>
+ 	Б Г Е Ж И ?</h3>`,
+        answers: [
+            "К",
+            "М",
+            "Л",
+            "Ъ",
+            "Н"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: `<h3>Определите название города, зашифрованного в анаграмме. В какой части России находится этот город?<br>
+        НОСОВИК БРИ С</h3>`,
+        answers: [
+            "УРАЛ",
+            "СИБИРЬ",
+            "ДАЛЬНИЙ ВОСТОК",
+            "ПРИВОЛЖЬЕ",
+            "СЕВЕРО-ЗАПАД"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: `<h3>6.	Найдите слово, которое необходимо вставить в скобки, чтобы закончить первое слово и начать последнее слово. Какую букву содержит это слово?<br>
+ 	БАЛ ( . . . ) ТУР </h3>`,
+        answers: [
+            "Т",
+            "М",
+            "С",
+            "Н",
+            "А"
+        ],
+        correct: [4]
+    },
+	{
+        type: "choose",
+        question: `<h3>Какими двумя числами следует заменить знаки вопроса?
+ 	12 17 15 20 18 ? ?</h3>`,
+        answers: [
+            "20  22",
+            "22  20",
+            "23  20",
+            "23  21",
+            "24  21"
+        ],
+        correct: [4]
+    },
+	{
+        type: "choose",
+        question: `<h3>Какие две буквы должны идти далее?
+ 	Б Д Е З И Л ? ?</h3>`,
+        answers: [
+            "Н  О",
+            "М  П",
+            "Н  П",
+            "М  О",
+            "О  Р"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: `<h3>Сколько зеленых автомобилей в день производит автозавод?
+ 	    Автозавод производит 1000 кузовов в день для белых, черных, зеленых и красных
+        автомобилей в пропорции  4 : 8 : 7 : 1  соответственно.</h3>`,
+        answers: [
+            "320",
+            "340",
+			"380",
+            "365",
+            "350"
+        ],
+        correct: [5]
+    },
+	{
+        type: "choose",
+        question: `<h3>Расположите эти слова на семь правильных пар.
+ 	а)ПАС б)ВОЗ в)ДНЯ г)УНИ д)СО е)ОН ё)СЕГО ж)ПОРТ з)РАЙ
+и)ФОРМА й)ЯК к)ДУШНЫЙ л)ОБЩЕНИЕ м)МА</h3>`,
+        answers: [
+            "1)  а-ж   ё-к   б-в   г-и   д-л   з-е   м-й",
+            "2)  а-ж   б-к   ё-в   е-и   д-л   з-г   м-й",
+            "3)  д-ж   б-к   ё-в   г-и   а-л   з-е   м-й",
+            "4)  а-ж   б-к   м-в   г-и   д-л   з-е   ё-й",
+            "	5)  а-ж   б-к   ё-в   г-и   д-л   з-е   м-й"
+        ],
+        correct: [5]
+    }
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+<body>
+    <nav>
+    <a href="#" class="menu-trigger">Menu</a>
+    <ul>
+        <li><a href="../../../index.html">Главная</a></li>
+        <li><a href="..\..\другое\info.html">О нас</a></li>
+        <li><a href="..\index.html">Тесты</a></li>
+    </ul>
+</nav>
+<br><br><br>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест на тему: "Операционные системы"</h3>
+		<p><img src="images/os.png" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>

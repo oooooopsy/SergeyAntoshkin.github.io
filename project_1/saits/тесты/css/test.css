@@ -1,0 +1,20 @@
+.button_test {
+    background-color: rgb(226, 226, 226);
+    height: 35px;
+	border: 2px solid rgb(226, 226, 226);
+    border-radius: 2px 2px 2px 2px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+	margin-left: 25%;
+    font-size: 1em;
+}
+.button_test:hover {
+    background-color: rgb(197, 196, 196);
+	border: 2px solid rgb(197, 196, 196);
+}
+.button_test:active {
+    background-color: rgb(163, 162, 162);
+	border: 2px solid rgb(163, 162, 162);
+}
