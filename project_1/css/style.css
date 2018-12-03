@@ -1,0 +1,469 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+@font-face {
+font-family: 'MyWebFont';
+src: url('../fonts/11618.ttf');
+/*src: url('../fonts/11618.ttf');*/
+font-weight: normal;
+font-style: normal;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #dadada;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+}
+a {
+	color: #a838c7;
+	text-decoration: none;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:hover {
+	color: #e25959;
+	text-decoration: none;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:active {color:#56bdb9; }
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto/9;
+}
+
+header, footer {
+	position: relative;
+	width: 98%;
+	background-color:rgb(113, 70, 255);
+	float: left;
+}
+
+footer {
+	color:rgb(255, 255, 255);
+	padding: 1%;
+	padding-bottom: 2%;
+	height: auto;
+}
+
+footer img {
+	width: 20%;
+	float: left;
+	margin-right:5px; 
+}
+
+#logo{
+	font-size: 3em;
+	font-family:"MyWebFont";
+	color: rgb(165, 31, 31);
+}
+
+.contact {
+font-size: 1.5em;
+font-family: Comic Sans Ms, sans-serif;
+margin-left: 20px;
+}
+
+input[type=text].field {
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.ggaa {
+	text-align: center;
+}
+
+input[type=text].field:focus {
+	border: 2px solid #a838c7;
+}
+
+.right {float: right}
+.left {float: left}
+.clear { clear:both}
+
+#page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, #page-wrap:after {
+	height: 10px;
+}
+
+#page-wrap {
+	min-height: 95%;
+	margin-bottom: -10px;
+}
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#wrapper #articles {
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#wrapper #articles article {
+	float: left;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	min-height: 400px;
+}
+
+@media(min-width: 900px) {
+#wrapper #articles article {
+	width: 31.33333%;
+	margin-right: 2%;
+}}
+
+@media(max-width: 899px) and (min-width: 700px) {
+#wrapper #articles article {
+	width: 80%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}}
+
+@media(max-width: 699px) {
+#wrapper #articles article {
+	width: 100%;
+	margin-bottom: 10px;
+}}
+
+#wrapper #articles article img {
+	width: 100%;
+	height: 250px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	  -o-filter: blur(2px);
+	 -ms-filter: blur(2px);
+		 filter: blur(2px);
+		 transition-duration: 0.3s;
+}
+
+#wrapper #articles article img:hover {
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	  -o-filter: blur(0px);
+	 -ms-filter: blur(0px);
+		 filter: blur(0px);
+	transition-duration: 0.3s;
+}
+
+#wrapper #articles article h2 {
+	width: 90%;
+	margin-left: 2.5%;
+	font-weight: normal;
+	font-size: 1.7em;
+	color: #4a4a4a;
+}
+
+#wrapper #articles article p {
+	width: 80%;
+	margin-left: 10%;
+	color: #6c6873;
+}
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 20px 0;
+	float: left;
+	background: url(../img/backgroaaa.jpg) repeat-x center;
+	height: 200px;
+}
+
+#main_soc_block_in {
+	height: 100px;
+	padding: 1%;
+	height: 200px;
+	text-align: center;
+	background-color: #6161619e;
+	border-radius: 7px;
+	border-radius: 1px solid silver;
+	width: 500px;
+	max-width: 98%;
+	box-sizing: border-box;
+}
+
+#main_soc_block_in a {
+	float: left;
+	padding: 5px 10px;
+	background-color: #000000d4;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+#abaut_us {
+	width: 100%;
+	float: left;
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+}
+#abaut_us img {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-radius: 2px 2px 2px 2px;
+}
+.contentvk{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 1%;
+	float: left;
+	background-color: #fafafa;
+	border-radius: 2px;
+	border: 1px solid #eceae7;
+	box-sizing: border-box;
+	padding: 1%;
+}
+.contentvk p {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 3px;
+}
+.contentvk p1 {
+	text-align: center;
+	font-size: 15px;
+}
+.contentvk pe {
+	font-size: 13px;
+	color: #939393;
+}
+.contentvk img {
+	margin-top: 1%;
+	width: 120%;
+	height: 350px;
+	border-radius: 2px 2px 2px 2px;
+	border-bottom: 1px solid #eceae7
+}
+.contentvk p2 {
+	border-right: 2px solid #333;
+	border-left: 2px solid #333;
+	border-top: 2px solid 333;
+	border-bottom: 2px solid #333;
+	border-radius: 2px 2px 2px 2px;
+	background-color: #333;
+	color: rgb(0, 238, 255);
+	text-align: center;
+	font-size: 11px;
+}
+.like {
+
+	margin-left: 25%;
+		text-align:center; 
+		padding:11px 43px; 
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px; 
+		border-radius: 4px;
+		border: #939393; 
+		color:#E5FFFF; 
+		background:#939393; 
+}
+
+#slider1 {
+	width: 100%;
+	margin: 50px auto;
+	box-sizing: border-box;
+	margin-top: -20px;
+}
+
+#polosa1 {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	margin-top: -20px;
+}
+#polosa1 img {
+	float: left;
+	box-sizing: border-box;
+}
+
+#polosa1::after {
+	content: "";
+	display: block;
+	clear: both;
+	box-sizing: border-box;
+}
+.feed_color {
+	color: #b700ffd4;
+	padding: 10px;
+}
+.feedList1 {
+	color: #2c2c2cd4;
+	font-size: 30px;
+}
+.avtar{
+	margin-top: -100%;
+	position: relative;
+}
+.blur {
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	  -o-filter: blur(3px);
+	 -ms-filter: blur(3px);
+		 filter: blur(3px);
+		 transition-duration: 2s;
+}
+.txtet {
+	position: relative;
+	color: #ffffff;
+	font-size: 3em;
+	float: center;
+	transition-duration: 0.4s;
+	display: block;
+	clear: both;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.txtet:hover {
+	font-size: 3.8em;
+	transition-duration: 0.6s;
+}
+.txtet_1 {
+	position: relative;
+	top: -200px;
+}
+/* Позиционируем блок с контентом */
+.dialog-content{
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0 10 0 10;
+    margin:40px auto 0px auto;
+    min-width:150px;
+    max-width:600px;
+    min-height: 150px;
+    max-height: 600px;
+    padding-bottom: 10px;
+    background-color: #dadada;
+	border-radius: 0 0 5 5;
+	border-radius: 5px;
+	border: 2px solid rgb(163, 163, 163);
+	padding: 5px;
+	margin-left: 20px;
+	font-size: 1.2em;
+}
+/* Позиционируем верхний бар */
+.dialog-title{
+    margin: 0 -10 0 -10;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    height: 30px;
+    background-color: rgb(113, 70, 255);
+    color: #fff;
+}
+
+.dialog-title_1 {
+	text-align: center;
+    position: relative;
+	margin: 0 -10 0 -10;
+    background-color: rgb(113, 70, 255);
+	color: #fff;
+    vertical-align: middle;
+    height: 30px;
+}
+
+/* Делаем кнопку закрытия окна */
+.close-dialog{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(96, 53, 238);
+    height: 30px;
+    width: 30px;
+    border:0;
+	text-decoration: none;
+}
+
+.close-dialog:before{
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.9);
+    content: "x";
+    font-size: 20px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+outline: none;
+}
+/* Кнопка открытия окна */
+.button_asd {
+	position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 22px;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: rgb(118, 80, 241);
+  border: 0;
+  border-bottom: 2px solid rgb(113, 70, 255);
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -3px rgb(113, 70, 255);
+  box-shadow: inset 0 -3px rgb(113, 70, 255);
+    outline: none;
+}
+.button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.imfass {
+width: 500px;
+float: right; /* Выравнивание по правому краю */
+margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+}
+.asdasdASDas {
+background-color: #ffffff;
+	border-radius: 0 0 5 5;
+	border-radius: 5px;
+	border: 2px solid rgb(163, 163, 163);
+}

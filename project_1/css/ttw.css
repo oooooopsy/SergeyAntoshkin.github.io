@@ -1,0 +1,78 @@
+body {
+	        background: url(../photo/backgraunds_1.jpg);
+	        background-size: 1400px 1200px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+html {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+  	form {
+  	margin: 50px auto;
+    padding: 0px 30px;
+    width: 800px;
+}
+fieldset {
+  	border: 2px double #ad6aec;
+	border-radius: 13px;
+  	margin: -20px 0;
+	padding: 20px;
+	background-color: #fff;
+}
+label {
+	width: 150px;
+	display: inline-block;
+	cursor:pointer;
+}
+legend {
+	background: #ad6aec;
+	border-radius: 3px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 20px;
+}
+.button_register {
+	background-color: #a345fc;
+	border-radius: 3px;
+	padding: 9px 17px;
+	border: 10px;
+	color: #fff;
+}
+.data_spawn {
+	background: #ad6aec;
+	border-radius: 1px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 20px;
+	border: 10px;
+}
+.text_register {
+	font-size: 17px;
+}
+.avtor {
+	text-align:  center;
+	color: #fff;
+	    padding: 230px;
+}
+.page_avatar_img {
+    vertical-align: top;
+    border-radius: 10px;
+    max-width: 200px;
+}
