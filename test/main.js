@@ -1,8 +1,8 @@
-// 5155123886a16516b322284c06edc47289b3b8695c42fb1ada3b2de9f651a00e7514312fa5e1b127d99ed 
+//  
 function getUrl(method,params) {
     if(!method) throw new Error("Вы не указали метод")
     params = params || {};
-    params["access_token"] = "7f9ba6f388998fd76e13de5da7d7cc43f837c0968f70ecd6cad09f6b638d34765125b397fface790377cb";
+    params["access_token"] = "";
     return "https://api.vk.com/method/" + method + "?" + $.param(params);
 }
 
